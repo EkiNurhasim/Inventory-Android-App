@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".CreatePemeliharaanActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tambah Kegiatan Perawatan"
+        android:textSize="22sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/etPelaksana"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_black"
+        android:background="@color/color_white_transparent"
+        android:padding="12sp"
+        android:hint="Pelaksana"
+        android:drawableLeft="@drawable/ic_person"
+        android:drawablePadding="24dp"/>
+
+    <EditText
+        android:id="@+id/etKegiatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_black"
+        android:background="@color/color_white_transparent"
+        android:layout_marginTop="5dp"
+        android:padding="12sp"
+        android:hint="Kegiatan"
+        android:drawableLeft="@drawable/ic_kegiatan_rev"
+        android:drawablePadding="24dp"/>
+
+    <EditText
+        android:id="@+id/etAlatBahan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_black"
+        android:background="@color/color_white_transparent"
+        android:layout_marginTop="5dp"
+        android:padding="12sp"
+        android:hint="Alat Dan Bahan"
+        android:drawableLeft="@drawable/ic_alat"
+        android:drawablePadding="24dp"/>
+
+    <EditText
+        android:id="@+id/etNamaPetugas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_black"
+        android:background="@color/color_white_transparent"
+        android:layout_marginTop="5dp"
+        android:padding="12sp"
+        android:hint="Nama Petugas Pengawas"
+        android:drawableLeft="@drawable/ic_petugas"
+        android:drawablePadding="24dp"/>
+
+    <EditText
+        android:id="@+id/etEksternal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_black"
+        android:background="@color/color_white_transparent"
+        android:layout_marginTop="5dp"
+        android:padding="12sp"
+        android:hint="Nama Petugas Eksternal"
+        android:drawableLeft="@drawable/ic_petugas"
+        android:drawablePadding="24dp"/>
+
+    <Button
+        android:id="@+id/btnSavePerawatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:padding="12dp"
+        android:clickable="true"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/color_white"
+        android:background="@color/color_black"/>
+
+</LinearLayout>

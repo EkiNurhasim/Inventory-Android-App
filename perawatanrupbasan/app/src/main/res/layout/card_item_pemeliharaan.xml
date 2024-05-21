@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="12dp"
+    android:layout_marginRight="12dp"
+    android:layout_marginTop="12dp">
+
+    <LinearLayout
+        android:id="@+id/llItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp">
+
+            <LinearLayout
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/titleId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ID PEMELIHARAAN"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/titleTanggal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TANGGAL "
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/titlePelaksana"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PELAKSANA"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/titleKegiatan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="KEGIATAN"
+                    android:textSize="16sp"
+                    android:maxLines="2" />
+
+                <TextView
+                    android:id="@+id/titleAlatBahan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ALAT DAN BAHAN"
+                    android:textSize="16sp"
+                    android:maxLines="2" />
+
+                <TextView
+                    android:id="@+id/titleNamaPetugas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PETUGAS PENGAWAS"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/titleEksternal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PETUGAS EKSTERNAL"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/titleBendaSitaanId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ID BENDA SITAAN"
+                    android:visibility="gone"/>
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvIdPemeliharaan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ID PEMELIHARAAN"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/tvTanggal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TANGGAL "
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tvPelaksana"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PELAKSANA"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tvKegiatan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="KEGIATAN"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tvAlatBahan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ALAT DAN BAHAN"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tvNamaPetugas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PETUGAS PENGAWAS"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tvEksternal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PETUGAS EKSTERNAL"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tvBendaSitaanId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ID BENDA SITAAN"
+                    android:visibility="gone"/>
+
+
+            </LinearLayout>
+
+        </TableRow>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnDeletePemeliharaan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DELETE"
+                android:background="#A50000"
+                android:textColor="@color/color_white"
+                android:clickable="true"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

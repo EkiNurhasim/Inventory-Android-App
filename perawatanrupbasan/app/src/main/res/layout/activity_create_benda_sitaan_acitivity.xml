@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".CreateBendaSitaanAcitivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tambah Benda Sitaan"
+        android:textSize="22sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/etNoRegis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_black"
+        android:background="@color/color_white_transparent"
+        android:padding="12sp"
+        android:hint="No Registrasi"
+        android:drawableLeft="@drawable/ic_no_regis"
+        android:drawablePadding="24dp"/>
+
+    <EditText
+        android:id="@+id/etNamaBarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_black"
+        android:background="@color/color_white_transparent"
+        android:layout_marginTop="5dp"
+        android:padding="12sp"
+        android:hint="Nama Barang"
+        android:drawableLeft="@drawable/ic_nama_barang"
+        android:drawablePadding="24dp"/>
+
+    <EditText
+        android:id="@+id/etTersangka"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_black"
+        android:background="@color/color_white_transparent"
+        android:layout_marginTop="5dp"
+        android:padding="12sp"
+        android:hint="Tersangka"
+        android:drawableLeft="@drawable/ic_person"
+        android:drawablePadding="24dp"/>
+
+    <EditText
+        android:id="@+id/etInstansiPenitip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_black"
+        android:background="@color/color_white_transparent"
+        android:layout_marginTop="5dp"
+        android:padding="12sp"
+        android:hint="Instansi Penitip"
+        android:drawableLeft="@drawable/ic_instansi"
+        android:drawablePadding="24dp"/>
+
+    <EditText
+        android:id="@+id/etTanggalMasuk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_black"
+        android:background="@color/color_white_transparent"
+        android:layout_marginTop="5dp"
+        android:padding="12sp"
+        android:hint="Tangga/Bulan/Tahun"
+        android:drawableLeft="@drawable/ic_tanggal"
+        android:drawablePadding="24dp"
+        android:inputType="date"/>
+
+    <EditText
+        android:id="@+id/etGudang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_black"
+        android:background="@color/color_white_transparent"
+        android:layout_marginTop="5dp"
+        android:padding="12sp"
+        android:hint="Gudang"
+        android:drawableLeft="@drawable/ic_gudang"
+        android:drawablePadding="24dp" />
+
+    <EditText
+        android:id="@+id/etJumlahBarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_black"
+        android:background="@color/color_white_transparent"
+        android:layout_marginTop="5dp"
+        android:inputType="number"
+        android:padding="12sp"
+        android:hint="Jumlah Barang"
+        android:drawableLeft="@drawable/ic_barang"
+        android:drawablePadding="24dp" />
+
+    <EditText
+        android:id="@+id/etKondisiBarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_black"
+        android:background="@color/color_white_transparent"
+        android:layout_marginTop="5dp"
+        android:padding="12sp"
+        android:hint="Kondisi Barang"
+        android:drawableLeft="@drawable/ic_barang"
+        android:drawablePadding="24dp" />
+
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:padding="12dp"
+        android:clickable="true"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/color_white"
+        android:background="@color/color_black"/>
+
+</LinearLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ic_background"
+    android:gravity="center"
+    android:padding="25dp"
+    tools:context=".RegisterActivity">
+
+
+    <TextView
+        android:id="@+id/tvPerbasan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PERBASAN"
+        android:textColor="@color/background_color_end"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25sp"/>
+    <TextView
+        android:id="@+id/tvDetailPerbasan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="perawatan benda sitaan negara"
+        android:textColor="@color/background_color_end"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:textSize="15sp"
+        android:layout_marginBottom="15dp"/>
+
+    <EditText
+        android:id="@+id/etRegisterUsername"
+        android:layout_below="@+id/tvPleaseCreateAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_white"
+        android:textColorHint="@color/color_white"
+        android:background="@color/color_white_transparent"
+        android:padding="12sp"
+        android:hint="Username"
+        android:drawableLeft="@drawable/ic_person"
+        android:drawablePadding="24dp"/>
+
+    <EditText
+        android:id="@+id/etRegisterEmail"
+        android:layout_marginTop="12dp"
+        android:layout_below="@id/etRegisterUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_white"
+        android:textColorHint="@color/color_white"
+        android:background="@color/color_white_transparent"
+        android:padding="12sp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:drawableLeft="@drawable/ic_email"
+        android:drawablePadding="24dp"/>
+
+    <EditText
+        android:id="@+id/etRegisterPassword"
+        android:layout_marginTop="12dp"
+        android:layout_below="@id/etRegisterEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_white"
+        android:textColorHint="@color/color_white"
+        android:background="@color/color_white_transparent"
+        android:padding="12sp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/ic_lock"
+        android:drawablePadding="24dp"/>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_below="@id/etRegisterPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:padding="12dp"
+        android:textColor="@color/color_black"
+        android:background="@color/color_white"
+        android:text="Register"
+        android:clickable="true"/>
+
+    <TextView
+        android:id="@+id/tvLoginHere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:layout_below="@id/btnRegister"
+        android:text="Already Have Account? Login Here"
+        android:layout_margin="5dp"/>
+
+</LinearLayout>

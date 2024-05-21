@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="12dp"
+    android:layout_marginRight="12dp"
+    android:layout_marginTop="12dp">
+
+    <LinearLayout
+        android:id="@+id/llItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp">
+
+            <LinearLayout
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvIdTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ID BENDA SITAAN"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/tvNoRegisTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NO REGISTRASI"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tvNamaBarangTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NAMA BARANG"
+                    android:textSize="16sp"
+                    android:maxLines="2" />
+
+                <TextView
+                    android:id="@+id/tvTersangkaTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TERSANGKA"
+                    android:textSize="16sp"
+                    android:maxLines="2" />
+
+                <TextView
+                    android:id="@+id/tvInstansiPenitipTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="INSTANSI PENITIP"
+                    android:textSize="16sp"
+                    android:maxLines="2" />
+
+                <TextView
+                    android:id="@+id/tvTanggalMasukTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TANGGAL MASUK"
+                    android:textSize="16sp"
+                    android:maxLines="2" />
+
+                <TextView
+                    android:id="@+id/tvGudangTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="GUDANG"
+                    android:textSize="16sp"
+                    android:maxLines="2" />
+
+                <TextView
+                    android:id="@+id/tvJumlahBarangTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="JUMLAH BARANG"
+                    android:textSize="16sp"
+                    android:maxLines="2" />
+
+                <TextView
+                    android:id="@+id/tvKondisiBarangTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="KONDISI BARANG"
+                    android:textSize="16sp"
+                    android:maxLines="2" />
+
+                <TextView
+                    android:id="@+id/tvLoginRegisIdTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ID LOGIN USER"
+                    android:visibility="gone"/>
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ID Benda Sitaan"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/tvNoRegis"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No Regis"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tvNamaBarang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nama Barang"
+                    android:textSize="16sp"
+                    android:maxLines="2" />
+
+                <TextView
+                    android:id="@+id/tvTersangka"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tersangka"
+                    android:textSize="16sp"
+                    android:maxLines="2" />
+
+                <TextView
+                    android:id="@+id/tvInstansiPenitip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Instansi Penitip"
+                    android:textSize="16sp"
+                    android:maxLines="2" />
+
+                <TextView
+                    android:id="@+id/tvTanggalMasuk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tanggal Masuk"
+                    android:textSize="16sp"
+                    android:maxLines="2" />
+
+                <TextView
+                    android:id="@+id/tvGudang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gudang"
+                    android:textSize="16sp"
+                    android:maxLines="2" />
+
+                <TextView
+                    android:id="@+id/tvJumlahBarang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jumlah Barang"
+                    android:textSize="16sp"
+                    android:maxLines="2" />
+
+                <TextView
+                    android:id="@+id/tvKondisiBarang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kondisi Barang"
+                    android:textSize="16sp"
+                    android:maxLines="2" />
+
+                <TextView
+                    android:id="@+id/tvLoginRegisId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ID login regis"
+                    android:visibility="gone"/>
+
+            </LinearLayout>
+
+        </TableRow>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btnView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VIEW"
+                android:background="#00A510"
+                android:textColor="@color/color_white"
+                android:layout_marginRight="5dp"
+                android:clickable="true"/>
+
+            <Button
+                android:id="@+id/btnDelete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DELETE"
+                android:background="#A50000"
+                android:textColor="@color/color_white"
+                android:clickable="true"/>
+
+            <TextView
+                android:id="@+id/tvCreatedAt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Created At"
+                android:textSize="14sp"
+                android:maxLines="2"
+                android:layout_marginLeft="125dp"
+                android:layout_marginTop="10dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
